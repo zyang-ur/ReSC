@@ -45,7 +45,7 @@ We propose a recursive sub-query construction framework to address previous one-
 <!-- * Flickr30K Entities Dataset: please download the images for the dataset on the website for the [Flickr30K Entities Dataset](http://bryanplummer.com/Flickr30kEntities/) and the original [Flickr30k Dataset](http://shannon.cs.illinois.edu/DenotationGraph/). Images should be placed under ``./ln_data/Flickr30k/flickr30k_images``.
  -->
 
-* Data index: download the generated index files and place them as the ``./data`` folder. Availble at [[Gdrive]](https://drive.google.com/file/d/1fVwdDvXNbH8uuq_pHD_o5HI7yqeuz0yS/view?usp=sharing), [[One Drive]](https://uofr-my.sharepoint.com/:f:/g/personal/zyang39_ur_rochester_edu/???).
+* Data index: download the generated index files and place them as the ``./data`` folder. Availble at [[Gdrive]](https://drive.google.com/file/d/1fVwdDvXNbH8uuq_pHD_o5HI7yqeuz0yS/view?usp=sharing), [One Drive].
     ```
     rm -r data
     tar xf data.tar
@@ -55,7 +55,7 @@ We propose a recursive sub-query construction framework to address previous one-
     ```
     sh saved_models/yolov3_weights.sh
     ```
-More pretrained models are availble in the performance table [[Gdrive]](https://drive.google.com/drive/folders/1L2GUOUmhBDLA3WgaXfzLoNhJFf609vCe?usp=sharing), [[One Drive]](https://uofr-my.sharepoint.com/:f:/g/personal/zyang39_ur_rochester_edu/???) and should also be placed in ``./saved_models``.
+More pretrained models are availble in the performance table [[Gdrive]](https://drive.google.com/drive/folders/1L2GUOUmhBDLA3WgaXfzLoNhJFf609vCe?usp=sharing), [One Drive] and should also be placed in ``./saved_models``.
 
 
 ### Training
@@ -78,7 +78,7 @@ Using flag ``--test`` to access test mode.
 We train 100 epoches with batch size 8 on all datasets expect RefCOCOg, where we find training 20/40 epoches have the best performance. We fix the bert weights during training as the default. The language encoder can be finetuned with the flag ``--tunebert``. We observe a small improvenment on some datasets (e.g. RefCOCOg). Please check other experiment settings in our [paper](https://arxiv.org/pdf/2007..pdf).
 
 ## Performance and Pre-trained Models
-Pre-trained models are availble in [[Gdrive]](https://drive.google.com/drive/folders/1L2GUOUmhBDLA3WgaXfzLoNhJFf609vCe?usp=sharing), [[One Drive]](https://uofr-my.sharepoint.com/:f:/g/personal/zyang39_ur_rochester_edu/???).
+Pre-trained models are availble in [[Gdrive]](https://drive.google.com/drive/folders/1L2GUOUmhBDLA3WgaXfzLoNhJFf609vCe?usp=sharing), [One Drive].
 <table>
     <thead>
         <tr>
@@ -143,6 +143,7 @@ Pre-trained models are availble in [[Gdrive]](https://drive.google.com/drive/fol
             <td></td>
             <td></td>
         </tr> -->
+
 ### Citation
 
     @inproceedings{yang2020improving,
