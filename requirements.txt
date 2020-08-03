@@ -1,0 +1,9 @@
+## version of pytorch
+pip install opencv-python
+pip install matplotlib
+# pip install scipy
+conda install -c conda-forge scipy
+pip install argparse
+# pip install Pillow #==2.2.2
+conda install -c conda-forge pillow
+pip install pytorch-pretrained-bert
