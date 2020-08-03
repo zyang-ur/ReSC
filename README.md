@@ -72,7 +72,7 @@ Using flag ``--test`` to access test mode.
 
     ```
     python train.py --data_root ./ln_data/ --dataset referit \
-      --gpu gpu_id saved_models/ReSC_base_referit.pth.tar --test
+      --gpu gpu_id --resume saved_models/ReSC_base_referit.pth.tar --test
     ```
 ### Implementation Details
 We train 100 epoches with batch size 8 on all datasets expect RefCOCOg, where we find training 20/40 epoches have the best performance. We fix the bert weights during training as the default. The language encoder can be finetuned with the flag ``--tunebert``. We observe a small improvenment on some datasets (e.g. RefCOCOg). Please check other experiment settings in our [paper](https://arxiv.org/pdf/2007..pdf).
