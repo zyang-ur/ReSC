@@ -10,7 +10,7 @@ European Conference on Computer Vision (ECCV), 2020
 We propose a recursive sub-query construction framework to address previous one-stage visual grounding methods' limitations on grounding long and complex queries. For more details, please refer to our [paper](https://arxiv.org/pdf/2007..pdf).
 
 <p align="center">
-  <img src="http://cs.rochester.edu/u/zyang39/resq/resc.png" width="75%"/>
+  <img src="http://cs.rochester.edu/u/zyang39/resq/resc.png" width="60%"/>
 </p>
 
 [1] Yang, Zhengyuan, et al. ["A fast and accurate one-stage approach to visual grounding"](https://arxiv.org/pdf/1908.06354.pdf). ICCV 2019.
@@ -45,7 +45,7 @@ We propose a recursive sub-query construction framework to address previous one-
 <!-- * Flickr30K Entities Dataset: please download the images for the dataset on the website for the [Flickr30K Entities Dataset](http://bryanplummer.com/Flickr30kEntities/) and the original [Flickr30k Dataset](http://shannon.cs.illinois.edu/DenotationGraph/). Images should be placed under ``./ln_data/Flickr30k/flickr30k_images``.
  -->
 
-* Data index: download the generated index files and place them as the ``./data`` folder. Availble at [[Gdrive]](https://drive.google.com/???), [[One Drive]](https://uofr-my.sharepoint.com/:f:/g/personal/zyang39_ur_rochester_edu/???).
+* Data index: download the generated index files and place them as the ``./data`` folder. Availble at [[Gdrive]](https://drive.google.com/file/d/1fVwdDvXNbH8uuq_pHD_o5HI7yqeuz0yS/view?usp=sharing), [[One Drive]](https://uofr-my.sharepoint.com/:f:/g/personal/zyang39_ur_rochester_edu/???).
     ```
     rm -r data
     tar xf data.tar
@@ -55,7 +55,7 @@ We propose a recursive sub-query construction framework to address previous one-
     ```
     sh saved_models/yolov3_weights.sh
     ```
-More pretrained models are availble in the performance table [[Gdrive]](https://drive.google.com/???), [[One Drive]](https://uofr-my.sharepoint.com/:f:/g/personal/zyang39_ur_rochester_edu/???) and should also be placed in ``./saved_models``.
+More pretrained models are availble in the performance table [[Gdrive]](https://drive.google.com/drive/folders/1L2GUOUmhBDLA3WgaXfzLoNhJFf609vCe?usp=sharing), [[One Drive]](https://uofr-my.sharepoint.com/:f:/g/personal/zyang39_ur_rochester_edu/???) and should also be placed in ``./saved_models``.
 
 
 ### Training
@@ -78,7 +78,7 @@ Using flag ``--test`` to access test mode.
 We train 100 epoches with batch size 8 on all datasets expect RefCOCOg, where we find training 20/40 epoches have the best performance. We fix the bert weights during training as the default. The language encoder can be finetuned with the flag ``--tunebert``. We observe a small improvenment on some datasets (e.g. RefCOCOg). Please check other experiment settings in our [paper](https://arxiv.org/pdf/2007..pdf).
 
 ## Performance and Pre-trained Models
-Pre-trained models are availble in [[Gdrive]](https://drive.google.com/???), [[One Drive]](https://uofr-my.sharepoint.com/:f:/g/personal/zyang39_ur_rochester_edu/???).
+Pre-trained models are availble in [[Gdrive]](https://drive.google.com/drive/folders/1L2GUOUmhBDLA3WgaXfzLoNhJFf609vCe?usp=sharing), [[One Drive]](https://uofr-my.sharepoint.com/:f:/g/personal/zyang39_ur_rochester_edu/???).
 <table>
     <thead>
         <tr>
@@ -134,17 +134,15 @@ Pre-trained models are availble in [[Gdrive]](https://drive.google.com/???), [[O
         </tr>
         <tr>
             <td>test: 64.33</td>
-            <td>test: 64.70/td>
+            <td>test: 64.70</td>
         </tr>
-
+    </tbody>
+</table>
 <!--         <tr>
             <td>Flickr30K Entities</td>
             <td></td>
             <td></td>
         </tr> -->
-    </tbody>
-</table>
-
 ### Citation
 
     @inproceedings{yang2020improving,
