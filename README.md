@@ -1,5 +1,5 @@
 # Improving One-stage Visual Grounding by Recursive Sub-query Construction
-[Improving One-stage Visual Grounding by Recursive Sub-query Construction](https://arxiv.org/pdf/2007..pdf)
+[Improving One-stage Visual Grounding by Recursive Sub-query Construction](https://arxiv.org/pdf/2008.01059.pdf)
 
 by [Zhengyuan Yang](http://cs.rochester.edu/u/zyang39/), [Tianlang Chen](http://cs.rochester.edu/u/tchen45/), [Liwei Wang](http://www.deepcv.net/), and [Jiebo Luo](http://cs.rochester.edu/u/jluo)
 
@@ -7,7 +7,7 @@ European Conference on Computer Vision (ECCV), 2020
 
 
 ### Introduction
-We propose a recursive sub-query construction framework to address previous one-stage visual grounding methods' limitations on grounding long and complex queries. For more details, please refer to our [paper](https://arxiv.org/pdf/2007..pdf).
+We propose a recursive sub-query construction framework to address previous one-stage visual grounding methods' limitations on grounding long and complex queries. For more details, please refer to our [paper](https://arxiv.org/pdf/2008.01059.pdf).
 
 <p align="center">
   <img src="http://cs.rochester.edu/u/zyang39/resq/resc.png" width="60%"/>
@@ -75,7 +75,7 @@ Using flag ``--test`` to access test mode.
       --gpu gpu_id --resume saved_models/ReSC_base_referit.pth.tar --test
     ```
 ### Implementation Details
-We train 100 epoches with batch size 8 on all datasets expect RefCOCOg, where we find training 20/40 epoches have the best performance. We fix the bert weights during training as the default. The language encoder can be finetuned with the flag ``--tunebert``. We observe a small improvenment on some datasets (e.g. RefCOCOg). Please check other experiment settings in our [paper](https://arxiv.org/pdf/2007..pdf).
+We train 100 epoches with batch size 8 on all datasets expect RefCOCOg, where we find training 20/40 epoches have the best performance. We fix the bert weights during training as the default. The language encoder can be finetuned with the flag ``--tunebert``. We observe a small improvenment on some datasets (e.g. RefCOCOg). Please check other experiment settings in our [paper](https://arxiv.org/pdf/2008.01059.pdf).
 
 ## Performance and Pre-trained Models
 Pre-trained models are availble in [[Gdrive]](https://drive.google.com/drive/folders/1L2GUOUmhBDLA3WgaXfzLoNhJFf609vCe?usp=sharing), [One Drive].
