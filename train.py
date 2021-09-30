@@ -104,9 +104,12 @@ def main():
 
     eps=1e-10
     ## following anchor sizes calculated by kmeans under args.anchor_imsize=416
-    if args.dataset=='refeit':
-        anchors = '30,36,  78,46,  48,86,  149,79,  82,148,  331,93,  156,207,  381,163,  329,285'
-    elif args.dataset=='flickr':
+    ## An typo of 'refeit' in original experiments, thus removing the anchor for referit.
+    ## Detailed discussion in "https://github.com/zyang-ur/ReSC/issues/5"
+    # if args.dataset=='refeit':
+    #     anchors = '30,36,  78,46,  48,86,  149,79,  82,148,  331,93,  156,207,  381,163,  329,285'
+    # elif args.dataset=='flickr':
+    if args.dataset=='flickr':
         anchors = '29,26,  55,58,  137,71,  82,121,  124,205,  204,132,  209,263,  369,169,  352,294'
     else:
         anchors = '10,13,  16,30,  33,23,  30,61,  62,45,  59,119,  116,90,  156,198,  373,326'
